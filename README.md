@@ -59,6 +59,10 @@ It supports Python + Flask, which many free platforms don’t.
 The setup is beginner-friendly — perfect for student projects.
 The only downside is that the site "sleeps" if not used for a while, so sometimes it takes about a minute to load after being idle. After that, it stays active for a while.
 
+**Solution to tackle coldstart on render**
+To tackle this downside of render i.e(idle state of website upon not using it), i had made use of some automated bot(uptimer robot) which will keep the website in active state continously by visiting the website after every 5 minutes..
+
+
 ---
 
 
