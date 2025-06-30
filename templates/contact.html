@@ -1,0 +1,67 @@
+{% include "header.html" %}
+
+<div class="container py-5">
+  <!-- Founder & Co-founder Row -->
+  <div class="row justify-content-center">
+    <!-- Founder Card -->
+    <div class="col-lg-4 mb-5 mx-4 text-center fade-slide">
+      <img 
+        src="{{ url_for('static', filename='founder.png') }}" 
+        alt="Mahavir Kumar" 
+        class="bd-placeholder-img rounded-circle shadow-sm" 
+        height="140" 
+        width="140"
+      />
+      <h2 class="fw-normal mt-3">Mahavir Kumar</h2>
+      <p>
+        I'm Mahavir, <strong>Founder of Beyond Career</strong>, a strategy-driven professional blending technical acumen with entrepreneurial grit. From scaling startups to leading research and innovation projects, I specialize in driving growth, building strategic partnerships, and turning complex challenges into actionable solutions. I thrive at the intersection of business and technology—where ideas become impact.
+      </p>
+      <a class="btn contact-btn btn-grow" href="https://linktr.ee/Mahavir_beyondCareer" target="_blank">
+        View details »
+      </a>
+    </div> 
+
+    <!-- Co-founder Card -->
+    <div class="col-lg-4 mb-5 mx-4 text-center fade-slide">
+      <img 
+        src="{{ url_for('static', filename='cofounder.png') }}" 
+        alt="Nitish Kumar" 
+        class="bd-placeholder-img rounded-circle shadow-sm" 
+        height="140" 
+        width="140"
+      />
+      <h2 class="fw-normal mt-3">Nitish Kumar</h2>
+      <p>
+        I'm Nitish Kumar, <strong>Co-founder of Beyond Career</strong>, with a deep commitment to solving real-world problems through technology and purpose-driven leadership. With a background in operations and product strategy, I focus on building scalable systems, empowering teams, and creating user-centric solutions.  
+        I build with purpose, and scale with vision.  
+        Every product I work on is rooted in impact, not just innovation.
+      </p>
+      <a class="btn contact-btn btn-grow" href="https://nitishkumar.cvee.online/" target="_blank">
+        View details »
+      </a>
+    </div>
+  </div>
+
+  <!-- Company Card Row -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-lg-6 text-center fade-slide">
+      <img 
+        src="{{ url_for('static', filename='hero.png') }}" 
+        alt="Beyond Career Logo" 
+        class="bd-placeholder-img rounded-img shadow-sm" 
+        height="100" 
+        width="100"
+      />
+      <h2 class="fw-bold mt-3 text-dark">Beyond Career</h2>
+      <p class="px-3">
+        <strong>Beyond Career</strong> is the brainchild of Mahavir Kumar and Nitish Kumar—born from a shared vision to bridge the gap between ambition and achievement. As a purpose-driven platform, we empower individuals with real-world skills, mentorship, and opportunities. Our mission is to reshape careers through innovation, community, and impact.
+      </p>
+      <a class="btn contact-btn btn-grow" href="https://www.linkedin.com/company/beyondgradess/posts/?feedView=all" target="_blank">
+        Visit Website »
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+{% include "footer.html" %}

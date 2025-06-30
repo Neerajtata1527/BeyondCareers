@@ -1,0 +1,44 @@
+{% include "header.html" %}
+
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5 fade-slide">
+
+  <!-- Image Column -->
+  <div class="col-10 col-sm-8 col-lg-6 fade-slide">
+    <img
+      src="{{ url_for('static', filename='achievement.jpg') }}"
+      class="d-block mx-lg-auto img-fluid rounded shadow-sm"
+      alt="Beyond Career Achievements"
+      width="550"
+      height="400"
+      loading="lazy"
+    />
+  </div>
+
+  <!-- Text Content Column -->
+  <div class="col-lg-6 fade-slide">
+    <h1 class="display-6 fw-medium text-body-emphasis lh-1 mb-3" style="margin-left:10%">
+      More Than a Milestone — A Movement Begins
+    </h1>
+
+    <div style="margin-left:10%; max-width: 80%;">
+      <p class="lead fade-slide">
+        When Entrepreneurship Cell, IIT Kharagpur named Beyond Career one of the most impactful startups, it meant a lot. Because this isn’t just a startup — it’s a response to a broken system where opportunities are hidden, support is limited, and real talent is often overlooked.
+      </p>
+      <p class="lead fade-slide">
+        We built Beyond Career for students who never got a callback. For those with potential but no access. For the ones who believed in themselves, but just needed someone else to believe in them too.
+      </p>
+      <p class="lead fade-slide">
+        This win isn’t ours alone. It belongs to everyone who showed up, trusted the process, and said, “I’m in — let’s build something better.”
+      </p>
+      <p class="lead fade-slide">
+        And to those still figuring it out — we’re just getting started.
+      </p>
+      <p class="lead fade-slide">
+        None of this would have been possible without Nitish Kumar — the quiet strength behind the scenes who helped build it all.
+      </p>
+    </div>
+  </div>
+</div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+{% include "footer.html" %}
