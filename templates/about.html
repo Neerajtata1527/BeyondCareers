@@ -1,46 +1,49 @@
 {% include "header.html" %}
 
-<div class="px-4 pt-4 my-4 text-center border-bottom">
+<div class="container py-4 text-center">
 
   <!-- Cover Image -->
-  <div class="container px-5 my-4 fade-in">
-    <img 
-      src="{{ url_for('static', filename='cover.jpg') }}" 
-      class="img-fluid border rounded-3 mb-4" 
-      alt="About Beyond Career" 
-      width="1000" 
-      height="100" 
-      loading="lazy"
-    >
+  <div class="row justify-content-center mb-4 fade-in">
+    <div class="col-12 col-md-10">
+      <img 
+        src="{{ url_for('static', filename='cover.jpg') }}" 
+        class="img-fluid rounded-4 shadow-sm" 
+        alt="About Beyond Career" 
+        loading="lazy"
+      >
+    </div>
   </div>
 
-  <!-- About Us -->
-  <h1 class="display-6 fw-medium text-body-emphasis fade-in">About Us</h1>
-
-  <div class="col-lg-6 mx-auto">
-    <div class="fade-slide">
-      <p class="lead mb-4">
+  <!-- About Us Section -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-12 col-lg-8 text-center">
+      <h2 class="fw-semibold text-body-emphasis fade-in mb-3">About Us</h2>
+      <p class="lead fade-slide px-2">
         <strong>Beyond Career</strong> is a visionary startup founded by a team of dynamic students from <strong>IIT Kharagpur</strong>, committed to redefining how students approach their careers.  
         Our mission is to be a <strong>one-stop solution</strong> for students—helping them unlock opportunities, connect with industry leaders, and achieve their aspirations.  
         We believe every student deserves access to meaningful guidance, hands-on experience, and resources that empower them to <em>go beyond their dreams</em>.  
         Whether it’s internships, mentorship, or community engagement, we’re here to bridge the gap between <strong>ambition and success</strong>.
       </p>
     </div>
+  </div>
 
-    <!-- Mission -->
-    <h1 class="display-6 fw-medium text-body-emphasis fade-in">Our Mission</h1>
-    <div class="fade-slide">
-      <p class="lead mb-4">
+  <!-- Mission Section -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-12 col-lg-8 text-center">
+      <h2 class="fw-semibold text-body-emphasis fade-in mb-3">Our Mission</h2>
+      <p class="lead fade-slide px-2">
         At <strong>Beyond Career</strong>, our mission is to empower students with access, guidance, and opportunities that bridge the gap between potential and achievement. 
         We are dedicated to redefining how students navigate their careers—by connecting them with industry leaders, real-world experience, and a community that fosters growth. 
         We believe every student deserves the chance to go <em>beyond their dreams and into real success</em>.
       </p>
     </div>
+  </div>
 
-    <!-- Core Values -->
-    <h1 class="display-6 fw-medium text-body-emphasis fade-in">Core Values</h1>
-    <div class="fade-slide">
-      <p class="lead mb-4">
+  <!-- Core Values Section -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-12 col-lg-8 text-center">
+      <h2 class="fw-semibold text-body-emphasis fade-in mb-3">Core Values</h2>
+      <p class="lead fade-slide px-2">
         At <strong>Beyond Career</strong>, our core values guide everything we do. 
         We believe in <strong>accessibility</strong>—making career resources and opportunities available to every student, regardless of background. 
         We champion <strong>integrity</strong> and <strong>transparency</strong> in every interaction, fostering a culture of trust and accountability. 
@@ -49,9 +52,11 @@
       </p>
     </div>
   </div>
+
 </div>
+
 <script src="{{ url_for('static', filename='script.js') }}"></script>
-
-
 {% include "footer.html" %}
+
+
 
