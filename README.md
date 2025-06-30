@@ -71,6 +71,6 @@
 BeyodCareers/
 ├── static/
 ├── templates/
-├── app.py
+├── main.py
 ├── requirements.txt
 └── README.md
