@@ -1,18 +1,18 @@
 🚀 BEYOND CAREERS
 A small initiative aimed at celebrating raw skill and talent among youth.
 This is the landing page project for Beyond Careers — simple, effective, and made with purpose.
---
+---
 
 🧠 Why I Designed It This Way
 💡 The Thought Behind the Layout
 I chose this layout to reflect the vibe of our brand and logo — neat, focused, and not too flashy. Everything from the homepage to the footer is organized in a clean way so that users can just scroll through and understand what Beyond Careers is about, without getting lost.
 I didn’t want to go overboard with effects or animations. Instead, I focused on keeping it consistent and smooth — something that feels professional but still welcoming.
---
+---
 
 🎨 Colors & Fonts
 The site mainly uses sky blue and pale lemon yellow, both of which match the logo and give a calm, positive vibe.
 As for fonts, I kept them clean and simple — nothing fancy, just readable and modern.
---
+---
 
 💻 What I Used to Build It
 🧱 Tech Stack
@@ -23,7 +23,7 @@ This helped a lot with layout and responsiveness. Using its grid system and preb
 HTML + CSS + JS
 I used basic HTML and CSS to customize styles beyond what Bootstrap offers.
 JavaScript brought the site to life — like hover effects, animations, and conditional styling to make it more interactive.
---
+---
 
 🧩 Challenges I Faced (and Solved!)
 Like any project, there were a few hiccups along the way:
@@ -31,7 +31,7 @@ Like any project, there were a few hiccups along the way:
 I kept seeing weird errors in the browser console. Turns out, some of them were just silly typos or small mistakes in JS syntax. Fixed those with some patience (and yeah, ChatGPT helped 😄).
 **Site Crashed on First Launch**:
 During deployment, the site crashed. I later realized it was because of missing files and folder structure issues. I reorganized things and made sure dependencies were properly listed — it worked fine after that.
---
+---
 📈 How I Improved Performance
 Mobile Responsiveness
 I made sure the site looks good on both phones and desktops. Used Bootstrap classes like col-lg-6 to handle layout changes on different screen sizes.
@@ -39,19 +39,19 @@ Code Reusability
 Instead of repeating code for things like the navbar or footer on every page, I created separate files like header.html and footer.html and used Flask’s Jinja to include them wherever needed. It made the code cleaner and easier to manage.
 Clean-Up
 Removed unnecessary or duplicate code, shortened the CSS, and organized assets properly so the project stays neat.
---
+---
 
 🚀 How I Deployed It
 🔧 Step-by-Step
 Created a GitHub repo and pushed all my project files using Git Bash.
 Used Render (a free cloud platform) to host the Flask app.
---
+---
 
 🧠 Why I Chose Render
 It supports Python + Flask, which many free platforms don’t.
 The setup is beginner-friendly — perfect for student projects.
 The only downside is that the site "sleeps" if not used for a while, so sometimes it takes about a minute to load after being idle. After that, it stays active for a while.
---
+---
 
 
 
@@ -78,6 +78,6 @@ BeyondCareers/
 ├── main.py              # The main Flask app
 ├── requirements.txt     # All Python dependencies
 └── README.md            # This documentation
---
+---
 
 
